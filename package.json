@@ -1,0 +1,42 @@
+{
+	"name": "email-checker",
+	"version": "1.0.0",
+	"description": "Filter temporary/disposable email domains and normalize email addresses",
+	"main": "dist/index.cjs",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"lint": "biome check ./src",
+		"format": "biome format --write ./src",
+		"check": "biome check --write ./src",
+		"build": "tsup",
+		"dev": "tsup --watch",
+		"test": "vitest",
+		"version-packages": "changeset version",
+		"release": "changeset publish",
+		"prepare": "husky"
+	},
+	"exports": {
+		".": {
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.cjs"
+		}
+	},
+	"keywords": ["email", "validation", "security", "temp-mail", "disposable"],
+	"author": "Your Name",
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@changesets/cli": "^2.29.4",
+		"@commitlint/cli": "^19.8.1",
+		"@commitlint/config-conventional": "^19.8.1",
+		"@types/node": "^20.0.0",
+		"eslint": "^9.28.0",
+		"husky": "^9.1.7",
+		"lint-staged": "^16.1.0",
+		"prettier": "^3.5.3",
+		"tsup": "^8.5.0",
+		"typescript": "^5.8.3",
+		"vitest": "^3.2.3"
+	}
+}

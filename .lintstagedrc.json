@@ -1,0 +1,4 @@
+{
+	"**/*.{ts,tsx,js,jsx}": ["biome check --apply ./src"],
+	"**/*.{ts,tsx,js,jsx,json,md}": ["biome format --write ./src"]
+}
