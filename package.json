@@ -1,7 +1,7 @@
 {
-	"name": "email-checker",
+	"name": "disposable-email-validator",
 	"version": "1.0.0",
-	"description": "Filter temporary/disposable email domains and normalize email addresses",
+	"description": "Block disposable emails with environment-specific rules and plus addressing validation",
 	"main": "dist/index.cjs",
 	"module": "dist/index.mjs",
 	"types": "dist/index.d.ts",
@@ -22,7 +22,20 @@
 			"require": "./dist/index.cjs"
 		}
 	},
-	"keywords": ["email", "validation", "security", "temp-mail", "disposable"],
+	"files": ["dist", "README.md", "src"],
+	"keywords": [
+		"disposable",
+		"email",
+		"validator",
+		"temp",
+		"throwaway",
+		"plus-addressing",
+		"environment",
+		"config",
+		"dev",
+		"staging",
+		"production"
+	],
 	"author": "Your Name",
 	"license": "MIT",
 	"devDependencies": {
@@ -31,6 +44,7 @@
 		"@commitlint/cli": "^19.8.1",
 		"@commitlint/config-conventional": "^19.8.1",
 		"@types/node": "^20.0.0",
+		"@vitest/coverage-v8": "3.2.3",
 		"eslint": "^9.28.0",
 		"husky": "^9.1.7",
 		"lint-staged": "^16.1.0",
