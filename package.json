@@ -16,6 +16,9 @@
 		"release": "changeset publish",
 		"prepare": "husky"
 	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"exports": {
 		".": {
 			"import": "./dist/index.mjs",
