@@ -1,9 +1,9 @@
-# Disposable Email Checker
+# Disposable Email Validator
 
-![npm](https://img.shields.io/npm/v/disposable-email-checker)
-![types](https://img.shields.io/npm/types/disposable-email-checker)
-![license](https://img.shields.io/npm/l/disposable-email-checker)
-![build](https://img.shields.io/github/actions/workflow/status/oluwatunmiisheii/disposable-email-checker/ci.yml?label=build)
+![npm](https://img.shields.io/npm/v/disposable-email-validator)
+![types](https://img.shields.io/npm/types/disposable-email-validator)
+![license](https://img.shields.io/npm/l/disposable-email-validator)
+![build](https://img.shields.io/github/actions/workflow/status/oluwatunmiisheii/disposable-email-validator/ci.yml?label=build)
 ![tests](https://img.shields.io/badge/tests-vitest-green)
 
 > Filter temporary/disposable email domains and normalize email addresses, with environment-specific rules.
@@ -23,7 +23,7 @@
 ## 📦 Installation
 
 ```bash
-npm install disposable-email-checker
+npm install disposable-email-validator
 ```
 
 ---
@@ -31,7 +31,7 @@ npm install disposable-email-checker
 ## ⚡ Quick Start
 
 ```ts
-import { DisposableEmailValidator } from 'disposable-email-checker';
+import { DisposableEmailValidator } from 'disposable-email-validator';
 
 const config = {
   production: {
@@ -42,9 +42,9 @@ const config = {
   }
 };
 
-const checker = new DisposableEmailValidator('production', config);
+const validator = new DisposableEmailValidator('production', config);
 
-const result = checker.validateEmail('user@10minutemail.com');
+const result = validator.validateEmail('user@10minutemail.com');
 console.log(result);
 // { success: false, error: 'Disposable email addresses are not allowed' }
 ```
