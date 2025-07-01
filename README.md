@@ -70,7 +70,7 @@ const config = {
       allow_plus_addressing: false
     },
     disposableDomains: ['10minutemail.com', 'tempmail.org'],
-    trustedDomains: ['tempmail.org', 'company.com']
+    trustedDomains: ['company.org', 'company.com']
   }
 };
 ```
