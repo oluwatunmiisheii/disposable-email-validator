@@ -1,5 +1,12 @@
 # disposable-email-validator
 
+## 1.0.4
+
+### Patch Changes
+
+- Another fix to .cjs error
+- Another fix to .cjs
+
 ## 1.0.3
 
 ### Patch Changes
