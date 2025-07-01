@@ -1,6 +1,6 @@
 {
 	"name": "disposable-email-validator",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Block disposable emails with environment-specific rules and plus addressing validation",
 	"main": "dist/index.cjs",
 	"module": "dist/index.mjs",

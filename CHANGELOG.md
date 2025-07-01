@@ -1,5 +1,11 @@
 # disposable-email-validator
 
+## 1.0.2
+
+### Patch Changes
+
+- Update Readme and package.json
+
 ## 1.0.1
 
 ### Patch Changes
