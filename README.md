@@ -3,7 +3,6 @@
 ![npm](https://img.shields.io/npm/v/disposable-email-validator)
 ![types](https://img.shields.io/npm/types/disposable-email-validator)
 ![license](https://img.shields.io/npm/l/disposable-email-validator)
-![build](https://img.shields.io/github/actions/workflow/status/oluwatunmiisheii/disposable-email-validator/ci.yml?label=build)
 ![tests](https://img.shields.io/badge/tests-vitest-green)
 
 > Filter temporary/disposable email domains and normalize email addresses, with environment-specific rules.
@@ -155,3 +154,13 @@ Pull requests are welcome! If you'd like to add a feature, fix a bug, or improve
 3. Commit your changes (`git commit -am 'Add feature'`)
 4. Push to the branch (`git push origin feature/my-feature`)
 5. Open a PR
+
+---
+
+## 📩 Contact
+
+Made with ❤️ Wilson Adenuga - [@Adenugawilson](https://x.com/Adenugawilson) - oluwatunmiseadenuga@gmail.com
+
+---
+
+## If you find this package useful, please consider starring the repository on GitHub! It helps a lot! ⭐️
