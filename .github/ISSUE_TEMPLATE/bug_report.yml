@@ -1,32 +1,38 @@
 name: Bug Report
-description: Report a bug or unexpected behavior
+description: Help us fix bugs by providing your config and the issue details.
 title: "[BUG] "
 labels: [bug]
 body:
-  - type: input
-    id: environment
+  - type: textarea
+    id: config
     attributes:
-      label: Environment
-      description: "E.g., production, development"
-      placeholder: production
+      label: Configuration Object
+      description: |
+        Please paste your configuration object here (JSON, JavaScript, or TypeScript).
+        This helps us reproduce the issue exactly.
+      placeholder: |
+        {
+          "production": {
+            "rules": {
+              "allow_disposable_emails": false
+            }
+          }
+        }
     validations:
       required: true
 
   - type: textarea
-    id: description
+    id: actual
     attributes:
-      label: Bug Description
-      description: "Describe what happened"
+      label: What Happened?
+      description: Describe the behavior or error you encountered.
     validations:
       required: true
 
-  - type: dropdown
-    id: platform
+  - type: textarea
+    id: expected
     attributes:
-      label: Platform
-      options:
-        - Node.js
-        - Browser
-        - Other
+      label: Expected Behavior
+      description: What did you expect to happen instead?
     validations:
       required: true
