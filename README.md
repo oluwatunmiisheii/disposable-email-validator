@@ -15,7 +15,7 @@
 - 🚫 Block disposable email addresses
 - ➕ Optional plus addressing validation (e.g., `user+tag@gmail.com`)
 - ✅ Allowlist support for trusted emails/domains
-- 🌍 Environment-based configuration (`development`, `staging`, `test`, `production`)
+- 🌍 Environment-based configuration (`development`, `staging`, `test`, `production`, e.t.c)
 - 📝 Fully typed with TypeScript
 
 ---
