@@ -7,7 +7,7 @@
 
 > Filter temporary/disposable email domains and normalize email addresses, with environment-specific rules.
 
----
+
 
 ## Features
 
@@ -17,15 +17,11 @@
 - **Environment-based configuration** (use any environment names: `development`, `staging`, `production`, `my-app-env`, etc.)
 - **Fully typed with TypeScript**
 
----
-
 ## Installation
 
 ```bash
 npm install disposable-email-validator
 ```
-
----
 
 ## Quick Start
 
@@ -48,7 +44,6 @@ console.log(result);
 // { success: false, error: 'Disposable email addresses are not allowed' }
 ```
 
----
 
 ## Configuration
 
@@ -133,7 +128,6 @@ new DisposableEmailValidator(environment: string, config: DisposableEmailValidat
 - `environment`: the name of any environment defined in your config (e.g., `production`, `development`, `staging`, `my-custom-env`, etc.)
 - `config`: your full multi-environment configuration object
 
----
 
 ### `validateEmail(email: string): ValidationResult`
 
@@ -151,7 +145,6 @@ Returns:
 - `'Disposable email addresses are not allowed'`
 - `'Plus addressing is not allowed'`
 
----
 
 ## Default Blocked Domains
 
@@ -159,7 +152,6 @@ If `disposableDomains` is not provided, this package includes a prebuilt list fr
 
 You get coverage for thousands of known throwaway providers out of the box.
 
----
 
 ## Why Use This?
 
@@ -169,14 +161,11 @@ You get coverage for thousands of known throwaway providers out of the box.
 - Built-in domain blacklist
 - Fast + typesafe + extendable
 
----
-
 
 ## License
 
 MIT — [LICENSE](./LICENSE)
 
----
 
 ## Contributing
 
@@ -188,13 +177,10 @@ Pull requests are welcome! If you'd like to add a feature, fix a bug, or improve
 4. Push to the branch (`git push origin feature/my-feature`)
 5. Open a PR
 
----
-
 ## Contact
 
 Made with ❤️ by Wilson Adenuga - [@Adenugawilson](https://x.com/Adenugawilson) - oluwatunmiseadenuga@gmail.com
 
----
 
 ## Support
 
