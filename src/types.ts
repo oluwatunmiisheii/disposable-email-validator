@@ -15,6 +15,7 @@ export interface ConfigEnv {
 	rules: Rules;
 	disposableDomains?: string[];
 	trustedDomains?: string[];
+	mergeDisposableDomains?: boolean;
 }
 
 export interface Config {
