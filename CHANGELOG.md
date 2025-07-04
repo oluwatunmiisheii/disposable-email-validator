@@ -1,5 +1,11 @@
 # disposable-email-validator
 
+## 1.1.0
+
+### Minor Changes
+
+- Add mergeDisposableDomains configuration option, comprehensive JSDoc documentation, and enhanced test coverage
+
 ## 1.0.4
 
 ### Patch Changes
